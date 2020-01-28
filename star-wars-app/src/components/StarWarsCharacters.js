@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, {useEffect, useState} from "react";
 import Loader from "react-loader-spinner";
-
-import { getData } from "../api";
+import {getData} from "../api";
 import "./star-wars-characters.css";
 
 export default function StarWarsCharacters() {
